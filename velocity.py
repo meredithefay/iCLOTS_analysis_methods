@@ -113,7 +113,8 @@ min_dist_st = 5
 block_size = 5
 feature_params = dict( maxCorners = max_corners,  # n best corners to track, more = more computationally expensive
                        qualityLevel = qual_level,  # parameter characterizing the minimal accepted quality of image corners
-                       minDistance = min_dist_st,  # minimum possible Euclidean distance between the returned corners (pix)
+                       minDistance = min_dist_st,  # minimum
+                       # possible Euclidean distance between the returned corners (pix)
                        blockSize = block_size)  # size of an average block for computing a derivative covariation matrix over each pixel neighborhood
 
 # Parameters for lucas kanade optical flow
@@ -309,7 +310,7 @@ for video in video_list:
     fig = plt.figure()
     plt.scatter(data_all['Channel pos. (pix)'] * umpix, data_all['Velocity (\u03bcm/s)'], color='lightskyblue')
     plt.plot(bins_um[1:], profile, color='dodgerblue')
-    plt.xlabel('Channel position ((\u03bcm)')
+    plt.xlabel('Channel position (\u03bcm)')
     plt.ylabel('Velocity (\u03bcm/s)')
     plt.savefig(filename + '_profile.png', dpi=300)
     plt.close()
