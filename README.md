@@ -41,4 +41,4 @@ Outputs typically include:
 
 
 ## Help and contributing
-Contributions are always welcome! Submit a pull request or contact the Lam lab coding team directly at lamlabcomputational@gmail.com. Please also feel free to reach out via email for assistance. Sample data and/or all data from the iCLOTS manuscript available upon request. Microfluidic mask designs available upon request. You can also find us at www.iCLOTS.org
+Contributions are always welcome! Submit a pull request or contact me directly at meredith.e.fay@gmail.com. Sample data and/or all data from the iCLOTS manuscript available upon request. Microfluidic mask designs available upon request. You can also find me at www.iCLOTS.org.
